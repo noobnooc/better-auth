@@ -1,5 +1,7 @@
 # @better-auth/oauth-provider
 
+## 1.7.0-beta.10
+
 ## 1.7.0-beta.9
 
 ### Minor Changes
@@ -175,6 +177,7 @@
   Breaking change: when the authorization includes a `resource`, the token and refresh requests may only narrow it. A request for a resource the authorization did not cover returns `invalid_target`. The `customAccessTokenClaims` callback now receives a `resources` array in place of the `resource` string.
 
   Migration: run the schema migration (`npx @better-auth/cli migrate`, or `generate` if you manage the schema yourself) to add the new resource columns.
+
 ## 1.6.20
 
 ### Patch Changes
