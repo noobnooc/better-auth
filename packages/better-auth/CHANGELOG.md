@@ -1,5 +1,24 @@
 # better-auth
 
+## 1.6.21
+
+### Patch Changes
+
+- [#10192](https://github.com/better-auth/better-auth/pull/10192) [`239bcc8`](https://github.com/better-auth/better-auth/commit/239bcc836cf39c4fb409a15333be45134f9e9e65) Thanks [@bytaesu](https://github.com/bytaesu)! - Validate PayPal user info against the verified ID token subject during social sign-in.
+
+- [#10198](https://github.com/better-auth/better-auth/pull/10198) [`570267c`](https://github.com/better-auth/better-auth/commit/570267cd5e782f018933ce3af4f51dbd250bf7de) Thanks [@rachit367](https://github.com/rachit367)! - Honor `disableMigration` on plugin schema tables. Tables flagged with `disableMigration: true` are now skipped by `better-auth generate` (Drizzle and Prisma output) and by the runtime migrator, instead of being emitted and created anyway. The flag was previously dropped while assembling the table list, so it had no effect.
+
+- [#10182](https://github.com/better-auth/better-auth/pull/10182) [`461ca6f`](https://github.com/better-auth/better-auth/commit/461ca6fd2453a2e145fa18a1df543e435e884701) Thanks [@bytaesu](https://github.com/bytaesu)! - Only store display username fallbacks as usernames when they pass username validation during email sign-up.
+
+- Updated dependencies [[`570267c`](https://github.com/better-auth/better-auth/commit/570267cd5e782f018933ce3af4f51dbd250bf7de)]:
+  - @better-auth/core@1.6.21
+  - @better-auth/drizzle-adapter@1.6.21
+  - @better-auth/kysely-adapter@1.6.21
+  - @better-auth/memory-adapter@1.6.21
+  - @better-auth/mongo-adapter@1.6.21
+  - @better-auth/prisma-adapter@1.6.21
+  - @better-auth/telemetry@1.6.21
+
 ## 1.6.20
 
 ### Patch Changes

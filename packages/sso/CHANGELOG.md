@@ -1,5 +1,13 @@
 # @better-auth/sso
 
+## 1.6.21
+
+### Patch Changes
+
+- Updated dependencies [[`239bcc8`](https://github.com/better-auth/better-auth/commit/239bcc836cf39c4fb409a15333be45134f9e9e65), [`570267c`](https://github.com/better-auth/better-auth/commit/570267cd5e782f018933ce3af4f51dbd250bf7de), [`461ca6f`](https://github.com/better-auth/better-auth/commit/461ca6fd2453a2e145fa18a1df543e435e884701)]:
+  - better-auth@1.6.21
+  - @better-auth/core@1.6.21
+
 ## 1.6.20
 
 ### Patch Changes
